@@ -1,4 +1,11 @@
-# Movie Recommender with Redis RAG & Semantic Cache Workshop
+# Redis AI Workshop Tutorial: Movie Recommender with Vector Search, RAG & Semantic Cache
+
+Hands-on **Redis vector search** and **RAG (Retrieval Augmented Generation)** workshop: build a **movie recommendation** engine plus **Help Center** chat with **semantic caching**, **hybrid search**, **guardrails**, and **PII protection**. Stack: **Redis**, **FastAPI**, **React/TypeScript**, **OpenAI**, HuggingFace embeddings.
+
+> **Lab 3** in the [AI · Agents · MCP learning path](https://github.com/saurabhahuja71/learning-path#7-ai--agents--mcp) · Audience: intermediate · Time: half-day to full-day workshop · Level: intermediate
+
+**SEO keywords:** *Redis vector search tutorial*, *RAG with Redis*, *semantic cache LLM*, *hybrid search BM25 vector*, *FastAPI Redis AI workshop*, *movie recommender embeddings*, *PII guardrails semantic router*.
+
 
 A hands-on workshop to build a movie recommendation engine using **Redis Cloud**, **Vector Search**, **RAG (Retrieval Augmented Generation)**, and **Semantic Caching**. Learn how to implement various search techniques including vector similarity search, hybrid search, full-text search, and more! Also includes a **Help Center** with guardrails and PII protection.
 
@@ -152,8 +159,8 @@ Complete these challenges in order to build out the full application. Look for `
 
 ```bash
 # Clone and configure
-git clone <repo-url>
-cd movie-recommender-workshop-starter
+git clone https://github.com/saurabhahuja71/workshop-redis-ai.git
+cd workshop-redis-ai
 
 # Create .env file
 echo "REDIS_URL=redis://default:xxxxxxxxx:18804" > .env
@@ -269,6 +276,30 @@ If `/api/create-index` fails:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
+
+
+
+## Learning path — AI / Agents / MCP
+
+| # | Lab | Focus |
+|---|-----|--------|
+| 0 | [mcp-demo](https://github.com/saurabhahuja71/mcp-demo) | MCP server in Go |
+| 1 | [agenterm](https://github.com/saurabhahuja71/agenterm) | Terminal AI agent |
+| 2 | [agentic-ai-sample](https://github.com/saurabhahuja71/agentic-ai-sample) | LangChain ReAct agent |
+| **3 (this)** | workshop-redis-ai | Redis vectors, RAG, semantic cache |
+
+Hub: [learning-path](https://github.com/saurabhahuja71/learning-path)
+
+## Topics / SEO tags
+
+`redis` `vector-search` `rag` `semantic-cache` `fastapi` `react` `openai` `embeddings` `hybrid-search` `guardrails` `tutorial` `workshop` `ai` `education`
+
+## Security note for students
+
+- Keep `REDIS_URL` and `OPENAI_API_KEY` in a **local `.env`** (never commit real secrets).
+- Rotate any key that was ever pushed to a public repo.
+- Demo credentials are not for production.
+
 
 ## Resources
 
